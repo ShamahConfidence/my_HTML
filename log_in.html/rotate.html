@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style> 
+    body{
+        background-color: skyblue;
+        padding: 1%;
+    }
+    #container{
+        width: 100%;
+        overflow: hidden;
+        text-align: right;
+    }
+    #text{
+        display: inline-block;
+        text-wrap: nowrap;
+        font-size: 40px;
+        animation: flow 5s linear infinite;
+    }
+    @keyframes flow{
+        from {transform: translate(100%);}
+        to {transform: translateX(-280%)}
+    }
+  </style>
+</head>
+<body>
+    <div id="container">
+        <span id="text">
+            I Love Coding!
+        </span>
+
+    </div>
+    
+</body>
+</html>
